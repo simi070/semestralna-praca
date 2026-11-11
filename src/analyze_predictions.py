@@ -88,4 +88,4 @@ print("             ai    human")
 for index, row in enumerate(confusion_matrix):
     print(f"{class_names[index]:<10} {row.tolist()}")
 
-print("\nANALÝZA DOKONČENÁ!")
+

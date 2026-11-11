@@ -71,7 +71,7 @@ trainable_params = sum(
     if param.requires_grad
 )
 
-print("ResNet-18 bol pripravený na tréning!")
+
 print("Počet výstupných tried:", model.fc.out_features)
 print("Trénovateľné parametre:", trainable_params)
 print("Zariadenie:", device)
@@ -172,4 +172,3 @@ torch.save(
     "models/resnet18_finetuned.pth"
 )
 
-print("Model bol úspešne uložený!")

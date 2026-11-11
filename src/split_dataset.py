@@ -36,4 +36,4 @@ for split_name, influencers in [
         print(f"{split_name}/{category}: "
               f"{len(list(destination.glob('*.jpg')))} obrázkov")
 
-print("Rozdelenie datasetu dokončené!")
+

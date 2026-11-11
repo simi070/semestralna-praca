@@ -22,6 +22,6 @@ test_image = torch.randn(1, 3, 224, 224)
 with torch.no_grad():
     output = model(test_image)
 
-print("Model je pripravený!")
+
 print("Výstup modelu:", output.shape)
 print("Počet výstupných tried:", model.fc.out_features)

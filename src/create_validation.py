@@ -23,4 +23,4 @@ for category, names in influencers.items():
         else:
             print(f"Upozornenie: {image.name} sa nenašiel.")
 
-print("Vytvorenie validačnej množiny dokončené!")
+

@@ -61,6 +61,6 @@ with torch.no_grad():
 # Výpočet presnosti
 accuracy = 100 * correct / total
 
-print("Testovanie dokončené!")
+
 print("Počet testovacích obrázkov:", total)
 print(f"Test Accuracy: {accuracy:.2f}%")
