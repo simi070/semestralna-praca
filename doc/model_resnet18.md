@@ -33,8 +33,11 @@ Pri príprave modelu sa využívajú:
 
 ## 5. Aktuálny stav implementácie
 
-V úvodnom prototype sú parametre pôvodnej časti modelu zmrazené a trénuje sa iba nová posledná klasifikačná vrstva.
+V implementácii čiastočného fine-tuningu zostala väčšina pôvodných parametrov modelu zmrazená.
 
-Tento postup predstavuje prenos učenia (transfer learning), konkrétne využitie modelu ako extraktora príznakov.
+Trénovanie bolo povolené pre:
 
-Pre realizáciu fine-tuningu bude potrebné následne povoliť trénovanie vybraných vrstiev predtrénovaného modelu.
+- posledný konvolučný blok `layer4`,
+- novú klasifikačnú vrstvu `fc`.
+
+Týmto spôsobom sa predtrénovaný model čiastočne prispôsobuje klasifikácii virtuálnych a ľudských influencerov.

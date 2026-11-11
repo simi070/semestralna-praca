@@ -6,6 +6,10 @@ Cieľom projektu je preskúmať možnosti využitia fine-tuningu predtrénovaný
 
 ## Štruktúra repozitára
 
+- `src/` – zdrojový kód a implementácia projektu.
+- `doc/` – dokumentácia datasetu, modelu a fine-tuningu.
+- `requirements.txt` – zoznam potrebných knižníc.
+- `.gitignore` – zoznam súborov a priečinkov ignorovaných Gitom.
 
 ## Literatúra a zdroje
 
