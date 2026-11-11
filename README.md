@@ -6,9 +6,6 @@ Cieľom projektu je preskúmať možnosti využitia fine-tuningu predtrénovaný
 
 ## Štruktúra repozitára
 
-- `src/` – zdrojový kód, príprava dát a experimenty.
-- `doc/` – technická dokumentácia a návody.
-- `requirements.txt` – zoznam použitých knižníc a nástrojov.
 
 ## Literatúra a zdroje
 
